@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2C3E50;
+    padding-top: 30px;
+    color: white;
+}
+
+.sidebar a {
+    padding: 10px 8px 15px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #1ABC9C;
+}
+
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+    padding-top: 35px;
+}
+
+.topnav {
+    background-color: #2C3E50;
+    overflow: hidden;
+    position: fixed;
+    top:20;
+    width: 100%;
+    z-index: 1;
+    height: 50px;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
