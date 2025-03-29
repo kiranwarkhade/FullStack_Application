@@ -18,9 +18,9 @@ public class UserService {
 
     public void saveUser(UserDto userDto) {
         User user = new User();
-        user.setFirstName(userDto.getFirstName());
-        user.setLastName(userDto.getLastName());
-        user.setEmail(userDto.getEmail());
+        //user.setFirstName(userDto.toString());
+        //user.setLastName(userDto.toString());
+        //user.setEmail(userDto.toString());
         userRepository.save(user);
     }
 }
