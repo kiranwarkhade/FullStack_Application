@@ -14,7 +14,7 @@ import com.ex.WhatsApp.service.UserService;
 
 @Controller
 public class UserController {
-          
+
 	@Autowired
 	private UserService userService;
 

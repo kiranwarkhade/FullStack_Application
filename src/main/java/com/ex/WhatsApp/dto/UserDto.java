@@ -10,13 +10,12 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class UserDto {
-    private String firstName;
-    private String lastName;
-    private String email;
+	private String firstName;
+	private String lastName;
+	private String email;
 
 	/*
-	 * // Getters and Setters
-	 *  public String getFirstName() { return firstName; }
+	 * // Getters and Setters public String getFirstName() { return firstName; }
 	 * 
 	 * public void setFirstName(String firstName) { this.firstName = firstName; }
 	 * 
