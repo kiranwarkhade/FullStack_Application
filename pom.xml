@@ -13,7 +13,7 @@
 	<artifactId>WhatsApp</artifactId>
 	<name>WhatsApp</name>
 	<description>WhatsApp project for Spring Boot</description>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<url />
 
 	<licenses>
