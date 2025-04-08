@@ -1,5 +1,8 @@
 package com.ex.WhatsApp.controller;
 
+import jakarta.persistence.Entity;
+
+
 public class Employee {
 
 	int id;
